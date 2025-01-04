@@ -1,6 +1,6 @@
 import ExpenseTracker from './assets/expense-tracker.png'
 import POS from './assets/pos-cafe.png'
-import NodeIcon from './assets/icons/Node.png'
+import NodeIcon from './assets/icons/node.png'
 import ReactIcon from './assets/icons/react.png'
 import MongoDB from './assets/icons/mongo.png'
 import Express from './assets/icons/express.png'
