@@ -1,6 +1,6 @@
 import ExpenseTracker from './assets/expense-tracker.png'
 import POS from './assets/pos-cafe.png'
-import Node from './assets/icons/Node.png'
+import NodeIcon from './assets/icons/Node.png'
 import ReactIcon from './assets/icons/react.png'
 import MongoDB from './assets/icons/mongo.png'
 import Express from './assets/icons/express.png'
@@ -42,7 +42,7 @@ export const listOfProjects: ProjectType[] = [
       'Funday is a user-friendly web application designed to help individuals effectively manage their personal finances. This project focuses on simplifying the process of tracking savings and expenses, offering full CRUD functionality for seamless management of financial data. Users can record their daily transactions, view detailed histories, and edit or delete records as needed.',
     cover: ExpenseTracker,
     technologies: [
-      { id: 1, name: 'Node', icon: Node },
+      { id: 1, name: 'Node', icon: NodeIcon },
       { id: 2, name: 'React', icon: ReactIcon },
       { id: 3, name: 'MongoDB', icon: MongoDB },
       { id: 4, name: 'Express', icon: Express },
