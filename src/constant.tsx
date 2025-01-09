@@ -7,8 +7,13 @@ import Express from './assets/icons/express.png'
 import Tailwind from './assets/icons/tailwind.png'
 import Laravel from './assets/icons/laravel.png'
 import MySQL from './assets/icons/mysql.png'
-import { IconType } from 'react-icons'
+import HTML from './assets/icons/html.png'
+import CSS from './assets/icons/css.png'
+import JavaScript from './assets/icons/js.png'
+import TypeScript from './assets/icons/ts.png'
+import Java from './assets/icons/java.png'
 
+import { IconType } from 'react-icons'
 import { FaFacebookSquare, FaGithubSquare } from 'react-icons/fa'
 import { IoLogoLinkedin } from 'react-icons/io'
 
@@ -32,6 +37,12 @@ interface LinkType {
   name: string
   icon?: IconType
   location: string
+}
+
+interface PersonalSkillType {
+  id: number
+  name: string
+  icon?: string
 }
 
 export const listOfProjects: ProjectType[] = [
@@ -63,6 +74,21 @@ export const listOfProjects: ProjectType[] = [
     ],
     location: '',
   },
+]
+
+export const personalSkills: PersonalSkillType[] = [
+  { id: 1, name: 'HTML', icon: HTML },
+  { id: 2, name: 'CSS', icon: CSS },
+  { id: 3, name: 'JavaScript', icon: JavaScript },
+  { id: 4, name: 'TypeScript', icon: TypeScript },
+  { id: 5, name: 'React', icon: ReactIcon },
+  { id: 6, name: 'Tailwind CSS', icon: Tailwind },
+  { id: 7, name: 'Express', icon: Express },
+  { id: 8, name: 'Node', icon: NodeIcon },
+  { id: 9, name: 'Laravel', icon: Laravel },
+  { id: 10, name: 'Java', icon: Java },
+  { id: 11, name: 'MySQL', icon: MySQL },
+  { id: 12, name: 'MongoDB', icon: MongoDB },
 ]
 
 export const socialLinks: LinkType[] = [

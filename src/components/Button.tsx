@@ -8,6 +8,8 @@ interface ButtonType {
 }
 
 const Button: React.FC<ButtonType> = ({ title, icon, variant = 'fill' }) => {
+
+  
   return (
     <button
       className={`font-alegreya p-2 px-6 rounded-full flex items-center gap-x-2 duration-200 ${

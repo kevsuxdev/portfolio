@@ -9,4 +9,10 @@
   body {
     @apply bg-light text-dark;
   }
+  ::-webkit-scrollbar {
+    @apply w-2 bg-transparent
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-dark rounded-full
+  }
 }
